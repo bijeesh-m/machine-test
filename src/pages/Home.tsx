@@ -110,8 +110,8 @@ const Home = () => {
           type="text"
           placeholder="Search user.."
         />
-        <div>
-          <span className=" hidden sm:block font-bold mr-3">Sorted by </span>{" "}
+        <div className=" flex items-center">
+          <span className=" hidden sm:block font-bold mr-3">Sorted by </span>
           <select
             className=" h-10 focus:outline-none  rounded-sm"
             value={sortOrder}
