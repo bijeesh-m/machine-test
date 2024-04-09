@@ -71,7 +71,7 @@ const Register = () => {
         </div>
         <p className=" flex gap-3">
           Already have an account ?{" "}
-          <Link className=" text-blue-500 underline" to={"/login"}>
+          <Link className=" text-blue-500 underline" to={"/"}>
             Login
           </Link>
         </p>
