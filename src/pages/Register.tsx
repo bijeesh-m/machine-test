@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     axios
       .post("https://reqres.in/api/register", formValues)
-      .then((res) => {
+      .then(() => {
         toast.success("Register success", { id: toastId });
         navigate("/home");
       })

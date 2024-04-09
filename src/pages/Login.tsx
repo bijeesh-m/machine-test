@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     axios
       .post("https://reqres.in/api/login", formValues)
-      .then((res) => {
+      .then(() => {
         toast.success("Login success", { id: toastId });
         navigate("/home");
       })
